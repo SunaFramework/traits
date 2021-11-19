@@ -1,0 +1,27 @@
+{
+  "name": "sunaframework/traits",
+  "description": "🛠 A wide range of useful, agile and easy-to-use traits for every type of PHP project",
+  "keywords": [
+    "php",
+    "code",
+    "helpers",
+    "traits"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Filipe Voges",
+      "email": "filipe.vogesh@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "minimum-stability": "dev"
+}
